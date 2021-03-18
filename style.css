@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -366,7 +365,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 70px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -677,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +709,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -771,20 +770,24 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #E47641;
+    font-size: 16px;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #E47641;
+    font-size: 16px;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:#E47641!important;
+    font-size: 16px;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +800,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #E47641!important;
+    font-size: 16px;
 }
-
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #E47641!important;
+    font-size: 16px;
 }
 
 .icon-dark-slate-blue {
