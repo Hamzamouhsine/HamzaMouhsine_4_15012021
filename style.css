@@ -364,8 +364,8 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 70px;
+        top: 30%;
+        right: 130px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -652,13 +652,25 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+label{
+    display:flex;
+}
 
 .container {
     max-width: 1000px;
 }
+.form-group{
+    padding:10px;
+}
+.form-control{
+    margin-top:10px;
+    padding-bottom:10px;
+    width:40%;
+}
 
 .hero-bloc-text {
     font-size: 38px;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -680,8 +692,9 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 80%;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 .h1 {
@@ -735,7 +748,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -775,14 +788,14 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color: black!important;
     font-weight: bold;
 }
 
 .btn-atomic-tangerine {
     background: #E47641;
     font-size: 16px;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -964,6 +977,7 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        width:100%;
     }
     .navbar-brand img {
         max-height: 40px;
