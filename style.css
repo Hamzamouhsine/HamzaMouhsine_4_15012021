@@ -149,7 +149,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -507,6 +507,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .scrollToTop {
@@ -617,7 +618,6 @@ a[data-lightbox]:hover img {
     z-index: 1;
     opacity: 0.4;
 }
-
 .next-lightbox {
     padding: 6px 8px 1px 13px;
     right: 25px;
@@ -657,7 +657,7 @@ label{
 }
 
 .container {
-    max-width: 1000px;
+    
 }
 .form-group{
     padding:10px;
@@ -709,11 +709,13 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    border-radius:40px;
+    border: solid 1px #E47641;
+    margin-left:25px;
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    padding:15px;
 }
 
 h2 {
@@ -788,12 +790,12 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: white!important;
     font-weight: bold;
 }
 
 .btn-atomic-tangerine {
-    background: #E47641;
+    background:#E47641 ;
     font-size: 16px;
     color: black!important;
 }
@@ -946,7 +948,7 @@ h4 {
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
-        width: 100%;
+        
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
