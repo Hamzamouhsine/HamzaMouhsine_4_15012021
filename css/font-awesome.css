@@ -138,7 +138,8 @@
         transform: rotate(359deg)
     }
 }
-
+/*!
+ 
 .fa-rotate-90 {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     -webkit-transform: rotate(90deg);
@@ -173,7 +174,7 @@
     -ms-transform: scale(1, -1);
     transform: scale(1, -1)
 }
-
+*/
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,

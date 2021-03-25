@@ -99,7 +99,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color:black;
 }
 
 .d-bloc button:hover {
@@ -132,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:black;
 }
 
 .d-bloc .a-btn:hover,
@@ -194,7 +194,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black;
 }
 
 .d-bloc .panel button:hover,
@@ -572,7 +572,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -634,7 +634,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: black;
     background: none;
 }
 
@@ -650,15 +650,12 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 label{
     display:flex;
 }
 
-.container {
-    
-}
 .form-group{
     padding:10px;
 }
@@ -727,7 +724,7 @@ h3 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: black!important;
 }
 
 .med-width-whitespace {
@@ -785,7 +782,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #E47641;
+    background-color: #f3976C;
     font-size: 16px;
 }
 
@@ -795,13 +792,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:#E47641 ;
+    background:#f3976C;
     font-size: 16px;
     color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background:#E47641!important;
+    background:#f3976C!important;
     font-size: 16px;
     color: #FFFFFF!important;
 }
@@ -815,17 +812,19 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #E47641!important;
+    color: #f3976C!important;
     font-size: 16px;
 }
 .ltc-atomic-tangerine:hover {
-    color: #E47641!important;
+    color: #f3976C!important;
     font-size: 16px;
 }
-
+.tight-width-whitespace{
+    color: black!important;
+}
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: black!important;
+    border-color: black!important;
 }
 
 .bg-dots-bg {
