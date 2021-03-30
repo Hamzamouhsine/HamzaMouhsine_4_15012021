@@ -17,7 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+.quote-home{
+    font-weight: bold;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -103,7 +105,7 @@ a:hover {
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: white;
 }
 
 .d-bloc .icon-round,
@@ -149,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, .1);
+    color: white;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
